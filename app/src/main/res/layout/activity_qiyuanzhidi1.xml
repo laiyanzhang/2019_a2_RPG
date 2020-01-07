@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".qiyuanzhidi1"
+    android:background="@drawable/start">
+
+    <RelativeLayout
+        android:layout_width="550dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/lb"/>
+
+            <com.example.game.PrintTextView
+                android:id="@+id/pt_1"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:textColor="#CCffffff"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="#810A0A0A"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

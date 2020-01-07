@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".EquipmentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/libai2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/eq9" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="5dp" />
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/eq7" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="5dp" />
+
+        <ImageView
+            android:id="@+id/iv_4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/eq30" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="5dp" />
+        <ImageView
+            android:id="@+id/iv_5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/eq23" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="5dp" />
+
+        <ImageView
+            android:id="@+id/iv_6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/eq17" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="5dp" />
+
+        <ImageView
+            android:id="@+id/iv_7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/eq0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:id="@+id/iv_9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:background="@drawable/menu">
+
+                <ListView
+                    android:id="@+id/lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:divider="#000000"
+                    android:dividerHeight="2dp">
+                </ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/bt_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/button1"
+                    android:text="装备"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

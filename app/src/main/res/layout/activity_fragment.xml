@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fragment"
+    tools:context=".FragmentActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/button"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="角色">
+        </Button>
+
+        <Button
+            android:id="@+id/bt_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/button"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="装备">
+        </Button>
+
+        <Button
+            android:id="@+id/bt_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/button"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="技能">
+        </Button>
+
+        <Button
+            android:id="@+id/bt_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/button"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="任务">
+        </Button>
+
+        <Button
+            android:id="@+id/bt_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/button"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="地图">
+        </Button>
+
+        <Button
+            android:id="@+id/bt_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"/>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+    </FrameLayout>
+
+
+</LinearLayout>
